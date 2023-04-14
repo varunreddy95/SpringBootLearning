@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LearnSpringFrameworkApplication<learn-spring-framework>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.varunreddy95.spring.learnspringframework.LearnSpringFrameworkApplication",
+            "projectName": "learn-spring-framework",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 package com.varunreddy95.spring.learnspringframework.game;
 
+
 public class SuperContraGame implements GamingConsole{
 	
 	@Override

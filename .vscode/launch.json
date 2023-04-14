@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainApplication",
+            "request": "launch",
+            "mainClass": "com.varunreddy95.spring.learnspringframework.MainApplication",
+            "projectName": "learn-spring-framework"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-LearnSpringFrameworkApplication<learn-spring-framework>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

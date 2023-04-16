@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GamingAppLauncherApplication",
+            "request": "launch",
+            "mainClass": "com.varunreddy95.spring.learnspringframework.game.GamingAppLauncherApplication",
+            "projectName": "learn-spring-framework"
+        },
+        {
+            "type": "java",
+            "name": "AppMain",
+            "request": "launch",
+            "mainClass": "com.varunreddy95.spring.learnspringframework.enterprise.example.AppMain",
+            "projectName": "learn-spring-framework"
+        },
+        {
+            "type": "java",
+            "name": "GamingApp",
+            "request": "launch",
+            "mainClass": "com.varunreddy95.spring.learnspringframework.game.GamingApp",
+            "projectName": "learn-spring-framework"
+        },
+        {
+            "type": "java",
+            "name": "MainApplication",
+            "request": "launch",
+            "mainClass": "com.varunreddy95.spring.learnspringframework.MainApplication",
+            "projectName": "learn-spring-framework"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-LearnSpringFrameworkApplication<learn-spring-framework>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

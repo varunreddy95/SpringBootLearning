@@ -12,6 +12,11 @@ public class BusinessService {
     @Autowired
     private DataService dataService;
 
+    public BusinessService(DataService dataService) {
+        System.out.println("Constructor Injection");
+        this.dataService = dataService;
+    }
+
     @SuppressWarnings("null")
     public long calculateSum() {
         List<Integer> data =  dataService.getData();

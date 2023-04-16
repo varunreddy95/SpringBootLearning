@@ -1,8 +1,10 @@
 package com.varunreddy95.spring.learnspringframework.game;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Primary
 public class MarioGame implements GamingConsole{
 	
 	@Override

@@ -2,11 +2,13 @@ package com.varunreddy95.spring.learnspringframework.enterprise.example.web;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import com.varunreddy95.spring.learnspringframework.enterprise.example.business.BusinessService;
 
 @Component
+@Primary
 public class MyWebController {
 
     @Autowired

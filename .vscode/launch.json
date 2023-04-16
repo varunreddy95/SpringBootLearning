@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppMain",
+            "request": "launch",
+            "mainClass": "com.varunreddy95.spring.learnspringframework.enterprise.example.AppMain",
+            "projectName": "learn-spring-framework"
+        },
+        {
+            "type": "java",
             "name": "GamingApp",
             "request": "launch",
             "mainClass": "com.varunreddy95.spring.learnspringframework.game.GamingApp",

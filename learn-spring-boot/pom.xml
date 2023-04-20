@@ -8,36 +8,24 @@
 		<version>3.1.0-M2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.varunreddy95.spring</groupId>
-	<artifactId>learn-spring-framework</artifactId>
+	<groupId>com.varunreddy95.springboot</groupId>
+	<artifactId>learn-spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>learn-spring-framework</name>
+	<name>learn-spring-boot</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>jakarta.inject</groupId>
-			<artifactId>jakarta.inject-api</artifactId>
-			<version>2.0.1</version>
 		</dependency>
 	</dependencies>
 

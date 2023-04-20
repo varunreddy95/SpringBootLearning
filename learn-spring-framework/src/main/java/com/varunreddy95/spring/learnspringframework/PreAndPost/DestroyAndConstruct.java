@@ -8,15 +8,17 @@ import org.springframework.stereotype.Component;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 import java.util.Arrays;
 
-@Component
+@Named //This is same as @Component in spring but this is Jakarta EE
 class SomeClass {
 	
 	private SomeDependency someDependency;
 	
-	@Autowired
+	@Inject   //same as @Autowired but in Jakarta EE
 	public SomeClass(SomeDependency someDependency) {
 		super();
 		System.out.println("All Dependencies are Ready");
@@ -33,7 +35,7 @@ class SomeClass {
 	}
 }
 
-@Component
+@Named
 class SomeDependency {
 	
 }

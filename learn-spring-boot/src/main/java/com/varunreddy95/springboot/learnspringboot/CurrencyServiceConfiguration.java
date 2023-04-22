@@ -3,7 +3,7 @@ package com.varunreddy95.springboot.learnspringboot;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@ConfigurationProperties(prefix="currecy-services")
+@ConfigurationProperties(prefix="currency-services")
 @Component
 public class CurrencyServiceConfiguration {
 

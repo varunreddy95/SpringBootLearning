@@ -29,7 +29,8 @@ public class AppController {
 			    new F1Teams(7, "Haas F1", "Nico Hulkenberg"),
 			    new F1Teams(8, "Alfa Romeo Sauber", "Valteri Bottas"),
 			    new F1Teams(9, "Williams Racing", "Alex Albon"),
-			    new F1Teams(10, "Scuderia AlphaTauri", "Yuki Tsunoda"));
+			    new F1Teams(10, "Scuderia AlphaTauri", "Yuki Tsunoda"),
+				new F1Teams(11, "My Team", "Varun Reddy"));
 	}
 	
 	

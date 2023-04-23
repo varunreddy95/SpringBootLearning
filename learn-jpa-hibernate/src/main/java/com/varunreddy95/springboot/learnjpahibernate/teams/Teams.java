@@ -1,12 +1,20 @@
 package com.varunreddy95.springboot.learnjpahibernate.teams;
 
-import org.springframework.stereotype.Component;
 
-@Component
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity(name="formula")
 public class Teams {
 
+	@Id
 	private int id;
+	
+	@Column(name="teamname")
 	private String teamname;
+	
+	@Column(name="drivername")
 	private String drivername;
 	
 	
@@ -23,6 +31,21 @@ public class Teams {
 	}
 
 
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public void setTeamname(String teamname) {
+		this.teamname = teamname;
+	}
+
+
+	public void setDrivername(String drivername) {
+		this.drivername = drivername;
+	}
 
 
 	public int getId() {

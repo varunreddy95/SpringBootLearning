@@ -1,20 +1,18 @@
-package com.varunreddy95.springboot.learnjpahibernate.teams.jdbc;
+package com.varunreddy95.springboot.learnjpahibernate;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import com.varunreddy95.springboot.learnjpahibernate.teams.Teams;
+import com.varunreddy95.springboot.learnjpahibernate.teams.jdbc.TeamsJDBCRepository;
 
-@Component
+//@Component
 public class TeamsJDBCommandLineRunner implements CommandLineRunner{
 	
 	@Autowired
 	private TeamsJDBCRepository repository;
 	
-	@Autowired
-	private Teams team;
-
 	@Override
 	public void run(String... args) throws Exception {
 		repository.insert(new Teams(1, "Scuderia Ferrari", "Charles Leclerc"));
@@ -29,6 +27,9 @@ public class TeamsJDBCommandLineRunner implements CommandLineRunner{
 		repository.insert(new Teams(10, "AlphaTauri", "Yuki Tsunoda"));
 		
 		repository.delete(10);
+		
+		System.out.println(repository.select(1));
+		System.out.println(repository.select(2));
 	}
 
 }

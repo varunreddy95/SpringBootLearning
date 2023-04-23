@@ -1,7 +1,6 @@
-create table formula1
-{
-	id bigint unique not null,
-	teamname  varchar(255) not nul;,
-	drivername varchar(255) not null,
-	primary key (id)
-};
+CREATE TABLE formula(
+	id BIGINT NOT NULL,
+	teamname VARCHAR(255) NOT NULL,
+	drivername VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
